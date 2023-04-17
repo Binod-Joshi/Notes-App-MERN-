@@ -1,0 +1,44 @@
+.logouts{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.logout{
+     background-color: aliceblue;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;
+     padding: 20px;
+     border-radius: 10px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+}
+.ok{
+    color: red;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.cancel{
+    color: green;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h1{
+    width: 25vw;
+    
+    
+}

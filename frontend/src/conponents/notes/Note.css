@@ -1,0 +1,47 @@
+.cards{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    
+}
+.notes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.additonalFunctionality{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 9px;
+    margin-top: 8px;
+}
+.button1{
+    /* background-color: rgb(123, 255, 0); */
+    color: red;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.textarea{
+    padding: 10px;
+}
+.li1{
+        text-decoration: none;
+        padding: 5px 15px;
+}
+.sp{
+    display: flex;
+    justify-content: space-between;
+}
+.nolist{
+ margin-top: 40vh;
+ margin-left:30vw;
+}
